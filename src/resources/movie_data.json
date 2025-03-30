@@ -1,0 +1,474 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "Pushpa 2",
+        "image":"images/ranking1.jpg",
+        "release_year": 2024,
+        "rating": 8.5,
+        "genre": ["Action", "Drama"],
+        "plot_summary": "The sequel follows Pushpa Raj's continued rise in the red sandalwood smuggling underworld, facing new challenges and rivals.",
+        "director": "Sukumar",
+        "cast": ["Allu Arjun", "Rashmika Mandanna", "Fahadh Faasil"],
+        "cast_details":["Allu Arjun – A popular Telugu film actor known for his exceptional dance skills and stylish performances. He gained nationwide fame with Pushpa: The Rise (2021).","Rashmika Mandanna – A South Indian actress who gained national fame with Pushpa: The Rise (2021) and has also worked in Bollywood films."]
+
+      },
+      {
+        "id": 2,
+        "title": "Jawan",
+        "image":"images/ranking2.jpg",
+        "release_year": 2023,
+        "rating": 7.8,
+        "genre": ["Action", "Thriller"],
+        "plot_summary": "A high-octane action thriller where a soldier embarks on a mission to protect the nation from looming threats.",
+        "director": "Atlee Kumar",
+        "cast": ["Shah Rukh Khan", "Nayanthara", "Vijay Sethupathi"],
+        "cast_details":["Shah Rukh Khan – One of Bollywood’s biggest superstars, often called the 'King of Bollywood'.He is known for iconic films like Dilwale Dulhania Le Jayenge (1995) and Pathaan (2023)."]
+      },
+      {
+        "id": 3,
+        "title": "Stree 2",
+        "image":"images/ranking3.jpg",
+        "release_year": 2024,
+        "rating": 7.5,
+        "genre": ["Horror", "Comedy"],
+        "plot_summary": "The residents of Chanderi face a new supernatural threat, leading to another round of eerie yet comedic events.",
+        "director": "Amar Kaushik",
+        "cast": ["Rajkummar Rao", "Shraddha Kapoor", "Pankaj Tripathi"],
+        "cast_details":["Rajkummar Rao – A versatile Bollywood actor known for his performances in films like Newton (2017) and Stree (2018). He has won a National Film Award for his acting.","Shraddha Kapoor – A Bollywood actress known for Aashiqui 2 (2013), Stree (2018), and Tu Jhoothi Main Makkaar (2023)."]
+
+
+      },
+      {
+        "id": 4,
+        "title": "Chhava",
+        "image":"images/ranking4.jpg",
+        "release_year": 2025,
+        "rating": 7.9,
+        "genre": ["Historical", "Drama"],
+        "plot_summary": "A historical drama depicting the life and times of Chhatrapati Sambhaji Maharaj, the son of Shivaji Maharaj.",
+        "director": "Laxman Utekar",
+        "cast": ["Vicky Kaushal", "Rashmika Mandanna"],
+        "cast_details":["Vicky Kaushal – A critically acclaimed Bollywood actor known for films like Uri: The Surgical Strike (2019) and Sardar Udham (2021).","Rashmika Mandanna – A South Indian actress who gained national fame with Pushpa: The Rise (2021) and has also worked in Bollywood films."]
+
+      },
+      {
+        "id": 5,
+        "title": "Animal",
+        "image":"images/ranking5.jpg",
+        "release_year": 2023,
+        "rating": 8.2,
+        "genre": ["Crime", "Drama"],
+        "plot_summary": "An intense crime drama exploring complex family dynamics set against the backdrop of the underworld.",
+        "director": "Sandeep Reddy Vanga",
+        "cast": ["Ranbir Kapoor", "Rashmika Mandanna", "Anil Kapoor"],
+        "cast_details":["Ranbir Kapoor – A top Bollywood actor from the famous Kapoor family, known for movies like Rockstar (2011), Sanju (2018), and Animal (2023).","Rashmika Mandanna – A South Indian actress who gained national fame with Pushpa: The Rise (2021) and has also worked in Bollywood films."]
+
+      },
+      {
+        "id": 6,
+        "title": "Pathan",
+        "image":"images/ranking6.jpg",
+        "release_year": 2023,
+        "rating": 7.6,
+        "genre": ["Action", "Thriller"],
+        "plot_summary": "A spy thriller where an Indian agent battles against formidable enemies to protect the nation.",
+        "director": "Siddharth Anand",
+        "cast": ["Shah Rukh Khan", "Deepika Padukone", "John Abraham"],
+        "cast_details":["Shah Rukh Khan – One of Bollywood’s biggest superstars, often called the 'King of Bollywood'.He is known for iconic films like Dilwale Dulhania Le Jayenge (1995) and Pathaan (2023).","Deepika Padukone – One of Bollywood’s leading actresses, famous for Padmaavat (2018), Chennai Express (2013), and Bajirao Mastani (2015)."]
+
+
+      },
+      {
+        "id": 7,
+        "title": "Gadar 2",
+        "image":"images/ranking7.jpg",
+        "release_year": 2023,
+        "rating": 7.4,
+        "genre": ["Action", "Drama"],
+        "plot_summary": "The sequel continues the saga of Tara Singh and his family's challenges amidst political turmoil.",
+        "director": "Anil Sharma",
+        "cast": ["Sunny Deol", "Ameesha Patel", "Utkarsh Sharma"],
+        "cast_details":["Sunny Deol – A veteran Bollywood actor famous for action-packed roles in movies like Gadar: Ek Prem Katha (2001) and Gadar 2 (2023)."]
+
+      },
+      {
+        "id": 8,
+        "title": "Bahubali",
+        "image":"images/ranking8.jpg",
+        "release_year": 2015,
+        "rating": 8.1,
+        "genre": ["Action", "Drama"],
+        "plot_summary": "A young man discovers his royal heritage and battles to reclaim his kingdom from a tyrannical ruler.",
+        "director": "S.S. Rajamouli",
+        "cast": ["Prabhas", "Rana Daggubati", "Anushka Shetty"],
+        "cast_details":["Prabhas – A South Indian superstar known for his role as Baahubali in Baahubali: The Beginning (2015) and Baahubali: The Conclusion (2017)."]
+
+      },
+      {
+        "id": 9,
+        "title": "KGF 2",
+        "image":"images/ranking9.jpg",
+        "release_year": 2022,
+        "rating": 8.3,
+        "genre": ["Action", "Drama"],
+        "plot_summary": "Rocky continues his quest for power, facing new adversaries in the gold mines of Kolar.",
+        "director": "Prashanth Neel",
+        "cast": ["Yash", "Sanjay Dutt", "Srinidhi Shetty"],
+        "cast_details":["Yash – A Kannada film actor who became a pan-India star with KGF: Chapter 1 (2018) and KGF: Chapter 2 (2022)."]
+
+      },
+      {
+        "id": 10,
+        "title": "Dangal",
+        "image":"images/ranking10.jpg",
+        "release_year": 2016,
+        "rating": 8.4,
+        "genre": ["Biography", "Drama"],
+        "plot_summary": "The true story of wrestler Mahavir Singh Phogat and his daughters' journey to wrestling success.",
+        "director": "Nitesh Tiwari",
+        "cast": ["Aamir Khan", "Sakshi Tanwar", "Fatima Sana Shaikh"],
+        "cast_details":["Aamir Khan – Known as Bollywood’s 'Mr. Perfectionist', he has delivered classics like Lagaan (2001), 3 Idiots (2009), and Dangal (2016)."]
+      },
+      {
+        "id": 14,
+        "title": "Baida",
+        "image": "images/trending4.jpg",
+        "release_year": 2025,
+        "rating": "7",
+        "genre": ["Sci-Fi", "Supernatural Thriller"],
+        "plot_summary": "Set in India's heartland, Baida revolves around an assassin embarking on a transformative journey. Along the way, he encounters larger-than-life characters and faces unexpected twists, blending elements of science fiction and supernatural intrigue.",
+        "directors": ["Sudhanshu Rai", "Puneet Sharma"],
+        "cast": ["Sourabh Raaj Jain", "Hiten Tejwani", "Tarun Khanna", "Manisha Rai", "Shobhit Sujay"],
+        "cast_details":["Sourabh Raaj Jain – An Indian television actor famous for playing Lord Krishna in Mahabharat (2013) and Lord Shiva in Mahakali (2017)."]
+
+      },
+      {
+        "id": 15,
+        "title": "Pintu Ki Pappi",
+        "image": "images/trending5.jpg",
+        "release_year": 2025,
+        "rating": "3",
+        "genre": ["Action", "Comedy", "Romance"],
+        "plot_summary": "Pintu Ki Pappi is a romantic comedy-action film that follows the entertaining escapades of its titular character, Pintu, as he navigates love and challenges, leading to humorous and action-packed situations.",
+        "director": "Shiv Hare",
+        "cast": ["Shushant Thamke", "Jaanyaa Joshi", "Vidhi Yadav", "Vijay Raaz", "Murali Sharma"],
+        "cast_details":["The movie stars newcomers Shushant Thamke as Pintu, a man whose kisses inadvertently lead women to marry others, and Janya Joshi as his love interest, Pappi. The supporting cast includes Ganesh Acharya, Vijay Raaz, and Murali Sharma."]
+      },
+      {
+        "id": 16,
+        "title": "Tumko Meri Kasam",
+        "image": "images/trending6.jpg",
+        "release_year": 2003,
+        "rating": "5.4",
+        "genre": ["Romance", "Drama"],
+        "plot_summary": "The film tells the story of childhood friends Rishi and Anju, whose deep friendship faces trials as they confront their feelings for each other and societal expectations.",
+        "director": "K. Vijaya Bhaskar",
+        "cast": ["Ritesh Deshmukh", "Genelia D'Souza", "Shakti Kapoor", "Anuradha Patel"],
+        "cast_details":["Riteish Deshmukh – A Bollywood actor known for his comic timing in films like Housefull series and Dhamaal (2007). He has also acted in Marathi films."]
+
+      },
+      {
+        "id": 11,
+        "title": "Black Bag",
+        "image": "images/trending1.jpg",
+        "release_year": 2025,
+        "rating": "6",
+        "genre": ["Thriller"],
+        "plot_summary": "A gripping thriller centered around a mysterious black bag that entangles multiple lives in suspense and danger.",
+        "director": "John Doe",
+        "cast": ["John Doe", "Jane Smith"],
+        "cast_details":["John Doe - A Hollywood famous Actor mostly he is famous in thriller movies."]
+      },
+      {
+        "id": 12,
+        "title": "E.M.P.U.R.A.N",
+        "image": "images/trending2.jpg",
+        "release_year": 2025,
+        "rating": "7",
+        "genre": ["Science Fiction"],
+        "plot_summary": "A futuristic tale exploring the emergence of a new world order governed by artificial intelligence.",
+        "director": "Bob Williams",
+        "cast": ["Alice Johnson", "Bob Williams"],
+        "cast_details":["Alice Johnson - A Hollywood famous Actor mostly he famous in fiction movies."]
+      },
+     
+      {
+        "id": 13,
+        "title": "Locked",
+        "image": "images/trending3.jpg",
+        "release_year": 2025,
+        "rating": "6",
+        "genre": ["Action", "Thriller"],
+        "plot_summary": "Locked follows Eddie Barrish, a small-time thief who becomes trapped inside a luxurious SUV after attempting to steal it. The vehicle's owner, William, a sociopathic vigilante, orchestrates this entrapment to teach Eddie a lesson, leading to a tense battle of wits and survival.",
+        "director": "David Yarovesky",
+        "cast": ["Bill Skarsgård", "Anthony Hopkins", "Ashley Cartwright", "Michael Eklund", "Navid Charkhi"],
+        "cast_details":["Bill Skarsgard - He is a famous hollywood actor, his speciality is to play role in action and thriller movies"]
+
+
+      },
+    
+      {
+        "id": 17,
+        "title": "Snow White",
+        "image": "images/trending7.jpg",
+        "release_year": 2025,
+        "rating": "8.2",
+        "genre": ["Fantasy", "Live Action", "Musical"],
+        "plot_summary": "A live-action reimagining of Disney's 1937 classic, this adaptation follows Snow White as she escapes her jealous stepmother, the Evil Queen, and discovers her own strength and leadership qualities with the help of seven dwarfs.",
+        "director": "Marc Webb",
+        "cast": ["Rachel Zegler", "Gal Gadot", "Andrew Burnap"],
+        "cast_details":["Rachel Zegler – An American actress and singer, best known for playing Maria in West Side Story (2021) and appearing in The Hunger Games: The Ballad of Songbirds & Snakes (2023)."]
+
+      },
+      {
+        "id": 18,
+        "title": "Be Happy",
+        "image": "images/trending9.jpeg",
+        "release_year": 2025,
+        "rating": "8",
+        "genre": ["Drama"],
+        "plot_summary": "The journey of a single father and his talented daughter who aspire to perform on the country's biggest dance reality show.",
+        "director": "Remo D'Souza",
+        "cast": ["Abhishek Bachchan", "Nora Fatehi", "Inayat Verma"],
+        "cast_details":["Abhishek Bachchan-Son of legendary actor Amitabh Bachchan, known for films like Guru (2007), Dhoom (2004), and Dasvi (2022)."]
+
+
+      },
+      {
+        "id": 19,
+        "title": "The Diplomat",
+        "image": "images/trending10.jpg",
+        "release_year": 2025,
+        "rating": "8.5",
+        "genre": ["Political Thriller"],
+        "plot_summary": "An Indian diplomat attempts to repatriate an Indian woman from Pakistan, where she was presumably forced and deceived into marriage against her will.",
+        "director": "Shivam Nair",
+        "cast": ["John Abraham", "Sadia Khateeb", "Kumud Mishra", "Sharib Hashmi"],
+        "cast_details":["John Abraham – A Bollywood action star known for films like Dhoom (2004), Batla House (2019), and Pathaan (2023)."]
+
+      },
+      {
+        "id": 20,
+        "title": "Hera Pheri",
+        "image": "images/comedy1.jpg",
+        "release_year": 2000,
+        "rating": "8.2",
+        "genre": ["Comedy", "Crime", "Drama"],
+        "plot_summary": "Three unemployed men find the answer to all their money problems when they receive a call from a kidnapper. However, things do not go as planned.",
+        "director": "Priyadarshan",
+        "cast": ["Akshay Kumar", "Suniel Shetty", "Paresh Rawal", "Tabu"],
+        "cast_details":["Akshay Kumar-One of Bollywoods biggest stars, famous for action and comedy films like Hera Pheri (2000), Khiladi series, and OMG 2 (2023).","Suniel Shetty-A veteran Bollywood actor known for action and comedy films like Hera Pheri (2000) and Dhadkan (2000).",
+
+        "Paresh Rawal-A legendary Bollywood actor known for comic roles in Hera Pheri series and intense roles in Sardar (1993) and OMG (2012)."]
+      },
+      {
+        "id": 21,
+        "title": "Phir Hera Pheri",
+        "image": "images/comedy2.jpg",
+        "release_year": 2006,
+        "rating": "7.3",
+        "genre": ["Comedy", "Crime"],
+        "plot_summary": "Raju, Shyam, and Baburao are living happily after having risen from rags to riches. However, they lose it all after falling victim to a chit fund scam due to their greed for more money. Soon, they find themselves in new mess and encounter eccentric and dangerous characters in their quest for a shortcut to riches again.",
+        "director": "Neeraj Vora",
+        "cast": ["Akshay Kumar", "Suniel Shetty", "Paresh Rawal", "Bipasha Basu", "Rimi Sen"],
+        "cast_details":["Akshay Kumar-One of Bollywoods biggest stars, famous for action and comedy films like Hera Pheri (2000), Khiladi series, and OMG 2 (2023).","Suniel Shetty-A veteran Bollywood actor known for action and comedy films like Hera Pheri (2000) and Dhadkan (2000).",
+
+        "Paresh Rawal-A legendary Bollywood actor known for comic roles in Hera Pheri series and intense roles in Sardar (1993) and OMG (2012)."]
+      },
+      {
+        "id": 22,
+        "title": "Dhamaal",
+        "image": "images/comedy3.jpg",
+        "release_year": 2007,
+        "rating": "7.5",
+        "genre": ["Comedy", "Adventure"],
+        "plot_summary": "Four lazy friends named Roy, Manav, Aditya, and Boman venture out on a race to find a hidden treasure in Goa after a dying man reveals about it. However, they are not the only ones after the treasure.",
+        "director": "Indra Kumar",
+        "cast": ["Sanjay Dutt", "Riteish Deshmukh", "Arshad Warsi", "Javed Jaffrey", "Aashish Chaudhary"],
+        "cast_details":["Sanjay Dutt – An actor famous for playing anti-hero roles in Vaastav (1999), Munna Bhai MBBS (2003), and KGF Chapter 2 (2022)."]
+      },
+      {
+        "id": 23,
+        "title": "Badhaai Ho",
+        "image": "images/comedy4.jpg",
+        "release_year": 2018,
+        "rating": "8.0",
+        "genre": ["Comedy", "Drama"],
+        "plot_summary": "A man is embarrassed when he finds out his mother is pregnant.",
+        "director": "Amit Ravindernath Sharma",
+        "cast": ["Ayushmann Khurrana", "Neena Gupta", "Gajraj Rao", "Sanya Malhotra"],
+        "cast_details":["Ayushmann Khurrana – A versatile actor and singer known for unconventional roles in films like Andhadhun (2018), Vicky Donor (2012), and Dream Girl (2019)."]
+
+      },
+      {
+        "id": 24,
+        "title": "Andaz Apna Apna",
+        "image": "images/comedy5.jpg",
+        "release_year": 1994,
+        "rating": "8.2",
+        "genre": ["Comedy", "Romance"],
+        "plot_summary": "Two slackers competing for the affections of an heiress inadvertently become her protectors from an evil criminal.",
+        "director": "Rajkumar Santoshi",
+        "cast": ["Aamir Khan", "Salman Khan", "Raveena Tandon", "Karisma Kapoor", "Paresh Rawal"],
+        "cast_details":["Salman Khan – One of Bollywood’s biggest superstars, known for Bajrangi Bhaijaan (2015), Sultan (2016), and Tiger series.",
+
+            "Raveena Tandon – A popular 90s Bollywood actress known for films like Mohra (1994) and KGF Chapter 2 (2022).",
+
+            "Karisma Kapoor – A leading actress of the 90s and early 2000s, known for Dil To Pagal Hai (1997), Biwi No. 1 (1999), and Raja Hindustani (1996)."]
+      },
+      {
+        "id": 25,
+        "title": "Bombay to Goa",
+        "image": "images/comedy6.jpg",
+        "release_year": 1972,
+        "rating": "6.9",
+        "genre": ["Adventure", "Comedy", "Drama"],
+        "plot_summary": "The adventures of a group of passengers traveling from Mumbai to Goa on a bus.",
+        "director": "S. Ramanathan",
+        "cast": ["Amitabh Bachchan", "Aruna Irani", "Mehmood", "Shatrughan Sinha"],
+        "cast_details":["Amitabh Bachchan – A legendary Bollywood actor known as the 'Shahenshah of Bollywood,' famous for Sholay (1975), Deewaar (1975), and Piku (2015)."]
+
+      },
+      {
+        "id": 26,
+        "title": "Dhol",
+        "image": "images/comedy7.jpg",
+        "release_year": 2007,
+        "rating": "6.3",
+        "genre": ["Comedy", "Crime", "Drama"],
+        "plot_summary": "Four lazy friends want to make easy money and approach a wealthy man, but their plan backfires when they get embroiled with a notorious criminal.",
+        "director": "Priyadarshan",
+        "cast": ["Sharman Joshi", "Tusshar Kapoor", "Kunal Khemu", "Rajpal Yadav", "Tanushree Dutta"],
+        "cast_details":["Sharman Joshi – A talented actor known for his roles in 3 Idiots (2009), Golmaal (2006), and Ferrari Ki Sawaari (2012)."]
+
+
+      },
+      {
+        "id": 27,
+        "title": "Chup Chup Ke",
+        "image": "images/comedy8.jpg",
+        "release_year": 2006,
+        "rating": "6.9",
+        "genre": ["Comedy", "Drama", "Romance"],
+        "plot_summary": "A debt-ridden young man attempts suicide, but is rescued only to find that his luck is finally turning.",
+        "director": "Priyadarshan",
+        "cast": ["Shahid Kapoor", "Kareena Kapoor", "Suniel Shetty", "Paresh Rawal", "Rajpal Yadav"],
+        "cast_details":["Shahid Kapoor – A versatile Bollywood actor known for Kabir Singh (2019), Haider (2014), and Jab We Met (2007).","Karisma Kapoor – A leading actress of the 90s and early 2000s, known for Dil To Pagal Hai (1997), Biwi No. 1 (1999), and Raja Hindustani (1996)."]
+      },
+      {
+        "id": 28,
+        "title": "De Dana Dan",
+        "image": "images/comedy9.jpg",
+        "release_year": 2009,
+        "rating": "5.7",
+        "genre": ["Comedy", "Crime"],
+        "plot_summary": "Two down-on-their-luck men endeavor to kidnap a wealthy businesswoman's dog to demand a hefty ransom, but the plan goes awry.",
+        "director": "Priyadarshan",
+        "cast": ["Akshay Kumar", "Suniel Shetty", "Katrina Kaif", "Paresh Rawal"],
+        "cast_details":["Akshay Kumar-One of Bollywoods biggest stars, famous for action and comedy films like Hera Pheri (2000), Khiladi series, and OMG 2 (2023).","Paresh Rawal-A legendary Bollywood actor known for comic roles in Hera Pheri series and intense roles in Sardar (1993) and OMG (2012).","Suniel Shetty-A veteran Bollywood actor known for action and comedy films like Hera Pheri (2000) and Dhadkan (2000)."]
+      },
+      {
+        "id": 29,
+        "title": "Munna Bhai M.B.B.S.",
+        "image": "images/comedy10.jpg",
+        "release_year": 2003,
+        "rating": "8.1",
+        "genre": ["Comedy", "Drama"],
+        "plot_summary": "A goon decides to become a doctor to fulfill his father's dream and seeks admission to a medical college, where he disrupts the conventional system.",
+        "director": "Rajkumar Hirani",
+        "cast": ["Sanjay Dutt", "Arshad Warsi", "Gracy Singh", "Boman Irani"],
+        "cast_details":["Sanjay Dutt – An actor famous for playing anti-hero roles in Vaastav (1999), Munna Bhai MBBS (2003), and KGF Chapter 2 (2022)."]
+      },
+      {
+        "id":30,
+        "title": "Raees",
+        "image":"images/trending11.jpg",
+        "release_year": 2017,
+        "rating": 6.8,
+        "genre": ["Action", "Crime", "Drama"],
+        "plot_summary": "A bootlegger sets out to improve his community as a promising leader but falls in a political trap.",
+        "director": "Rahul Dholakia",
+        "cast": ["Shah Rukh Khan", "Nawazuddin Siddiqui", "Mahira Khan"],
+        "cast_details":["Shah Rukh Khan – One of Bollywood’s biggest superstars, often called the 'King of Bollywood'.He is known for iconic films like Dilwale Dulhania Le Jayenge (1995) and Pathaan (2023)."]
+      },
+      {
+        "id":31,
+        "title": "Kaabil",
+        "image":"images/trending12.jpg",
+        "release_year": 2017,
+        "rating": 7.1,
+        "genre": ["Action", "Drama", "Thriller"],
+        "plot_summary": "A blind man seeks revenge against those who harmed his wife.",
+        "director": "Sanjay Gupta",
+        "cast": ["Hrithik Roshan", "Yami Gautam", "Ronit Roy"],
+        "cast_details":["Hrithik Roshan – One of Bollywood’s top actors, famous for Koi Mil Gaya (2003), War (2019), and Super 30 (2019).","Yami Gautam – A Bollywood actress known for Vicky Donor (2012), Uri: The Surgical Strike (2019), and Article 370 (2024)."]
+      },
+      {
+        "id":32,
+        "title": "OK Jaanu",
+        "image":"images/trending13.jpg",
+        "release_year": 2017,
+        "rating": 5.1,
+        "genre": ["Drama", "Romance"],
+        "plot_summary": "A couple in a live-in relationship face challenges when their careers pull them in different directions.",
+        "director": "Shaad Ali",
+        "cast": ["Aditya Roy Kapur", "Shraddha Kapoor", "Naseeruddin Shah"],
+        "cast_details":["Aditya Roy Kapur – Known for romantic and action roles in Aashiqui 2 (2013), Malang (2020), and The Night Manager (2023).","Shraddha Kapoor – A Bollywood actress known for Aashiqui 2 (2013), Stree (2018), and Tu Jhoothi Main Makkaar (2023)."]
+
+      },
+      {
+        "id":33,
+        "title": "Bajrangi Bhaijaan",
+        "image":"images/trending14.jpg",
+        "release_year": 2015,
+        "rating": 8.0,
+        "genre": ["Action", "Adventure", "Comedy"],
+        "plot_summary": "An Indian man with a magnanimous spirit takes a young mute Pakistani girl back to her homeland to reunite her with her family.",
+        "director": "Kabir Khan",
+        "cast": ["Salman Khan", "Harshaali Malhotra", "Nawazuddin Siddiqui"],
+        "cast_details":["Salman Khan – One of Bollywood’s biggest superstars, known for Bajrangi Bhaijaan (2015), Sultan (2016), and Tiger series."]
+      },
+      {
+        "id":34,
+        "title": "Padmaavat",
+        "image":"images/trending15.jpg",
+        "release_year": 2018,
+        "rating": 7.0,
+        "genre": ["Drama", "History", "Romance"],
+        "plot_summary": "Queen Padmavati's beauty attracts the attention of Sultan Alauddin Khilji, leading to a historic battle.",
+        "director": "Sanjay Leela Bhansali",
+        "cast": ["Deepika Padukone", "Ranveer Singh", "Shahid Kapoor"],
+        "cast_details":["Deepika Padukone – One of Bollywood’s leading actresses, famous for Padmaavat (2018), Chennai Express (2013), and Bajirao Mastani (2015)."]
+      },
+      {
+        "id":35,
+        "title": "Kalki",
+        "image":"images/trending16.jpg",
+        "release_year": 2019,
+        "rating": 7.0,
+        "genre": ["Action", "Crime", "Thriller"],
+        "plot_summary": "A cop is assigned to investigate a series of mysterious murders in a village.",
+        "director": "Prasanth Varma",
+        "cast": ["Rajasekhar", "Adah Sharma", "Nandita Swetha"],
+        "cast_details":["Rajasekhar – A veteran Telugu film actor known for action-packed films like PSV Garuda Vega (2017) and Allari Priyudu (1993)."]
+
+      },
+      {
+        "id":36,
+        "title": "Sanju",
+        "image":"images/trending17.jpg",
+        "release_year": 2018,
+        "rating": 7.7,
+        "genre": ["Biography", "Comedy", "Drama"],
+        "plot_summary": "Biographical film about actor Sanjay Dutt, chronicling his personal and professional life.",
+        "director": "Rajkumar Hirani",
+        "cast": ["Ranbir Kapoor", "Paresh Rawal", "Manisha Koirala"],
+        "cast_details":["Ranbir Kapoor – A top Bollywood actor from the famous Kapoor family, known for movies like Rockstar (2011), Sanju (2018), and Animal (2023)."]
+
+      }
+      
+      
+    ]
+}
+      

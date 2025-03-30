@@ -1,0 +1,242 @@
+/* import url from google fonts to give unique font type to our project*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Here we use different selectors to apply styling on elements or class by using universal selector,class selector element
+selector*/
+
+/*Universal seletor*/
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: none;
+    
+}
+/* craete a key frame so that we use it as an animation in any container*/
+@keyframes popup {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.navbar{
+    text-decoration: none;
+}
+.Heading{
+    animation: popup 0.5s ease-out;
+    color: rgb(199, 57, 57);
+    margin-top: 3px;
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-style: bold;
+}
+:root{
+    --primary_color:rgb(179, 218, 225);
+    --secondary_color:rgb(8, 8, 8);
+}
+body{
+    background-color:var(--secondary_color);
+    padding:0px;
+    margin: 0px;
+   
+   
+}
+.Container{
+    background-color: rgb(154, 181, 188);
+}
+/*Class selector*/
+.Header{
+    background-color: var(--secondary_color);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3px; /* Adds spacing between elements */
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.home-button {
+    padding: 7px;
+    font-size: 16px;
+    background-color:var(--primary_color);
+    color: var(--secondary_color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: inset 0 5px 10px var(--secondary_color);
+    margin-left: 49px;
+  }
+  .home-button:hover {
+    background-color: #5d7ea5;
+  }
+  
+/*root child selector*/
+
+.search_button{
+    
+    display: inline-block;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.filters {
+display:inline-block;
+align-items: center;
+justify-content: space-between;
+gap: 10px;
+margin-right: 72px;
+
+}
+
+.filters select {
+padding: 5px;
+border-radius: 5px;
+background-color: var(--primary_color);
+color: var(--secondary_color);
+box-shadow: inset 0 5px 10px var(--secondary_color);
+font-size: 16px;
+}
+.inputText{
+    outline: none;
+    height: 17px;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color:rgb(5, 5, 5);
+    background-color: var(--primary_color);
+    box-shadow: inset 0 5px 10px var(--secondary_color);
+}
+.inputText::placeholder{
+    color: var(--secondary_color);
+}
+.search_button button{
+    background-color: var(--secondary_color);
+    box-shadow: inset 0 5px 10px var(--secondary_color);
+    padding: 0.2rem 0.5rem;
+    border-radius: 2rem;
+    color: var(--primary_color);
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid var(--primary_color);
+}
+.Container{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.Movie{
+    box-shadow: 0 5px 10px var(--primary_color);
+    width: 250px;
+    background-color: var(--secondary_color);
+    color: var(--primary-color);
+    margin: 1rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+.Movie .poster{
+    width: 100%;
+    height: 250px;
+}
+.movie-detail{
+    margin-top: 40px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid var(--primary_color);
+    background-color: var(--secondary_color);
+    color: var(--primary_color);
+    
+}
+.Movie-details{
+    color: var(--primary_color);
+    width:100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Movie-details .box{
+    width: 100%;
+    padding: 1 rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items:flex-start ;
+    justify-content: space-around;
+}
+.Movie-details .Title{
+    width: 160px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.rating{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 1px solid var(--primary_color);
+    box-shadow: inset 0 5px 5px var(--primary_color);
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+/*use media queries to make responsive website*/
+@media (max-width:900px){
+    .Header{
+        background-color: var(--secondary_color);
+        height: 180px;
+    }
+    .search_button{
+        
+        margin-right: 100px;
+    }
+}
+/*Used to make website responsive*/
+@media (max-width: 768px) {
+    .Header {
+      flex-direction: column; /* Stack elements on smaller screens */
+      text-align: center;
+    }
+  
+    .search_button, .filters {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .inputText, .filters select {
+      width: 100%; /* Make inputs full width */
+    }
+  }
+  /* for not found image we give separate styling*/
+  .not-found {
+    background-color: black;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(199, 57, 57);
+    text-align: center;
+    margin-top: 150px;
+  }
+  
