@@ -1,4 +1,6 @@
 I tried to create NETFLIX clone but using frontend development
+I used JSON file to store data of different movies
+I created this by using HTML,CSS,JSX and create app using Node js
 #Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
