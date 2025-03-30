@@ -73,9 +73,7 @@ const Main = () => {
               value={searchText}
               onChange={(e) => setSearchText(e.target.value)}
             />
-            <button type="button" onClick={handleSearchClick}>
-              <i className="bi bi-search"></i>
-            </button>
+            
           </div>
           <div className="filters">
             <select value={selectedGenre} onChange={(e) => setSelectedGenre(e.target.value)}>
