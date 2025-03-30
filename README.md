@@ -1,8 +1,27 @@
-I tried to create NETFLIX clone but using frontend development
-I used JSON file to store data of different movies
-I created this by using HTML,CSS,JSX and create app using Node js
+The Movie Database App is a frontend-only web application built using HTML, CSS, and JavaScript. It allows users to browse, search, and filter movies based on various
+
+criteria such as title, genre, rating, and release year. Users can also view detailed information about each movie, including its plot, director, and cast.
+
+This project is designed to be interactive, user-friendly, and responsive, ensuring a seamless experience across different devices.
+
+Features
+✅ Movie Listing – Displays a collection of movies in a card-based format.
+✅ Search Functionality – Users can search for movies by title.
+✅ Filtering Options – Movies can be filtered by genre, rating, and release year using dropdown menus.
+✅ Detailed Movie Pages – Clicking on a movie card opens a dedicated page with more information.
+✅ Home Button – Easily return to the main page without refreshing.
+✅ Responsive Design – Optimized for desktop, tablet, and mobile views.
+
+
 You can visit here to see the final result of my project:  "https://movie-database-tau-seven.vercel.app/"
 
+![Screenshot (15)](https://github.com/user-attachments/assets/945ef2c2-d829-48d2-a5f8-48e9f16d6176)
+![Screen!shot (14)](https://github.com/user-attachments/assets/d2a1416e-22fa-488b-8c41-28b8
+![Screenshot (16)](https://github.com/user-attachments/assets/6808ae07-42a1-4444-82c0-cb82399cb7a8)
+b469f290)
+![Screenshot (17)](https://github.com/user-attachments/assets/e7790892-ef39-45e7-8fda-d71d81f87b0d)
+![Screenshot (18)](https://github.com/user-attachments/assets/c4fda324-54b1-4331-9780-ad3e0b841be5)
+!([Screenshot(19)] https!://github.com/user-attachments/assets/b49a41fe-c483-46af-8c8f-07ef03ae856d)
 
 #Getting Started with Create React App
 
